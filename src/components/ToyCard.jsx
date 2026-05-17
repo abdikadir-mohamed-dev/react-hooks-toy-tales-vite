@@ -34,7 +34,7 @@ function ToyCard({ toy, toys = [], setToys }) {
     <div className="card" data-testid="toy-card">
       <h2>{name}</h2>
       <img src={image} alt={name} className="toy-avatar" />
-      <p>{likes} Likes</p>
+      <p>{likes} Likes </p>
       <button onClick={handleLike}>Like </button>
       <button onClick={handleDelete}>Donate to GoodWill </button>
     </div>
