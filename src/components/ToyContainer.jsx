@@ -6,6 +6,7 @@ function ToyContainer({ toys, setToys }) {
     <ToyCard
       key={toy.id}
       toy={toy}
+      toys={toys}
       setToys={setToys}
     />
   ))
